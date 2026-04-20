@@ -6,3 +6,6 @@
 [functions]
   directory = "netlify/functions"
 
+[functions."get-box-office"]
+  timeout = 26
+
