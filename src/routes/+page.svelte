@@ -78,7 +78,7 @@
         margin: 0;
         padding: 2em;
         min-height: 100vh;
-        min-width: 100vw;
+        width: auto;
         background-image: linear-gradient(rgb(128,16,0), rgb(255,128,0), rgb(255,200,0), rgb(255,128,0),rgb(128,16,0));
     }
     h1 {
