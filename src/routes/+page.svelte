@@ -92,8 +92,8 @@
         margin: 0;
         padding: 0;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
+        flex-wrap: nowrap;
         font-size: 1.8vh;
     }
 </style>
