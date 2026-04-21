@@ -1,7 +1,9 @@
 <script>
 let {name, headers, rows} = $props();
 
+let total = $derived(rows.reduce((sum, row) => sum + (row[2] || 0), 0));
 </script>
+
 <div>
 <table>
     <thead>
@@ -21,9 +23,15 @@ let {name, headers, rows} = $props();
         </tr>
         {/each}
     </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2"><strong>Total</strong></td>
+            <td><strong>{total.toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 })}</strong></td>
+        </tr>
+    </tfoot>
 </table>
-
 </div>
+
 <style>
 table, td, th {
     text-align: center;
@@ -33,5 +41,8 @@ table, td, th {
 table {
     border-collapse: collapse;
     background-image: radial-gradient(rgba(255,200,0,1), rgba(255,200,0,0));
+}
+tfoot td {
+    border-top: 2px solid black;
 }
 </style>
