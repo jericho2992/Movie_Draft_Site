@@ -77,8 +77,8 @@
     main {
         margin: 0;
         padding: 2em;
-        height: 100vh;
-        width: 100vw;
+        min-height: 100vh;
+        min-width: 100vw;
         background-image: linear-gradient(rgb(128,16,0), rgb(255,128,0), rgb(255,200,0), rgb(255,128,0),rgb(128,16,0));
     }
     h1 {
@@ -94,6 +94,8 @@
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
         font-size: 1.8vh;
     }
 </style>
