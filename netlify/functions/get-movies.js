@@ -19,7 +19,7 @@ export async function handler(event, context) {
       'Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe', 'Is God Is',
       'Power Ballad', 'Spider-Man: Brand New Day', 'Disclosure Day',
       'Teenage Sex and Death at Camp Miasma', 'Train to Busan', 'The Devil Wears Prada 2',
-      'Jackass 5', 'The Furious', 'The Sheep Detectives', 'Tales from Earthsea'
+      'Jackass 5', 'The Furious', 'The Sheep Detectives', 'Tales from Earthsea','CatVideoFest 2026'
     ];
 
     // Kick off the Apify actor run
