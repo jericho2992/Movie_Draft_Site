@@ -4,7 +4,7 @@
 
     const players = [
         ['Tim', ['The Odyssey', 'The End of Oak Street', 'Hokum', 'Evil Dead Burn', 'Stop! That! Train!', 'In the Grey', 'The Breadwinner', 'Rose of Nevada', 'Six: The Musical Live!', 'Two Pianos', 'Girls Like Girls', 'Influenced']],
-        ['Jax', ['The Devil Wears Prada 2', 'Jackass 5', 'UNTITLED REPLACE', 'The Furious', 'The Sheep Detectives', 'Tales from Earthsea']],
+        ['Jax', ['The Devil Wears Prada 2', 'Jackass: Best and Last', 'UNTITLED REPLACE', 'The Furious', 'The Sheep Detectives', 'Tales from Earthsea']],
         ['Ryan', ['Supergirl', 'Billie Eilish: Hit Me Hard and Soft - The Tour Live in 3D', 'Star Wars: The Mandalorian and Grogu', 'CatVidFest 2026', 'Animal Farm', 'Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe', 'Is God Is', 'Power Ballad']],
         ['Kelly', ['Spider-Man: Brand New Day', 'Disclosure Day', 'Teenage Sex and Death at Camp Miasma', 'Train to Busan']],
         ['Kat', ['Toy Story 5', 'Minions & Monsters', 'Backrooms', 'I Want Your Sex']],
