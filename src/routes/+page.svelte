@@ -41,7 +41,7 @@
             statusMessage = 'Loading results...';
             const dataRes = await fetch(`https://api.apify.com/v2/datasets/${datasetId}/items?clean=true`);
             const items = await dataRes.json();
-
+            console.log(items)
             // Step 4: build per-player tables
             tables = players.map(([name, movieList]) => ({
                 name,
